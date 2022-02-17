@@ -1,0 +1,32 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    height: 70px;
+
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+.nav__logo {
+    left: 20px;
+    height: 70px;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+
+.nav__avatar {
+    margin-right: 20px;
+    margin-top: 10px;
+    right: 20px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.nav__black {
+    background-color: #111;
+}
